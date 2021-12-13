@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}APT INFO{% endblock %}
+{% block content %}
+
+<form method="POST">
+    <br />
+    <h3 align="center">서울 아파트 가격 예측</h3>
+    <br />
+
+
+    <div class="form-group">
+        <label for="location1">*지역</label><br />
+        <input type="text" class="form-control" id="location1" name="location1" placeholder="서울시내 구를 입력해주세요."
+        />
+      
+    </div>
+
+
+    <br />
+    <div class="form-group">
+        <label for="size">*전용면적</label>
+        <br />        
+        <input type="radio" id="size_40" name="size" value="40평이상">
+        <label for="size_40">40평 이상</label>
+        <input type="radio" id="size_30" name="size" value="30평대">
+        <label for="size_30">30평대</label>
+        <input type="radio" id="size_20" name="size" value="20평대">
+        <label for="size_20">20평대</label>
+        <input type="radio" id="size_under20" name="size" value="20평미만">
+        <label for="size_under20">20평미만</label>
+
+    </div>
+
+    <br />
+    <div class="form-group">
+        <label for="old">*설립년도(연차)</label>
+        <br />
+        <input type="radio" id="old_20" name="old" value="20년이상">
+        <label for="old_20">20년 이상</label>
+        <input type="radio" id="old_15" name="old" value="20년미만">
+        <label for="old_15">10-20년</label>
+        <input type="radio" id="old_10" name="old" value="10년미만">
+        <label for="old_10">10년 미만</label>
+    </div>
+
+    <br />
+    <div class="form-group">
+        <label for="brand">*브랜드 아파트 여부</label>
+        <br />
+        <input type="radio" id="yes" name="brand" value=1>
+        <label for="yes">네</label>
+        <input type="radio" id="no" name="brand" value=0>
+        <label for="no">아니오</label>
+    </div>
+
+    <br />
+    <div class="form-group">
+        <label for="deal">*거래유형</label>
+        <br />
+            <input type="radio" id="agency" name="deal" value="중개거래">
+            <label for="agency">중개거래</label>
+            <input type="radio" id="direct" name="deal" value="직거래">
+            <label for="direct">직거래</label>
+            <input type="radio" id="unknown" name="deal" value="모르겠음">
+            <label for="unknown">모르겠음</label>
+        </div>
+   <br />
+<button type="submit" class="btn btn-primary">Submit</button>
+<br />
+</form>
+<br /><br />
+</h2>
+<br />
+
+{% endblock %}
