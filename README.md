@@ -6,6 +6,9 @@
 채널명: 동빈나<br>
 링크: https://www.youtube.com/embed/Lu93Ah2h9XA <br>
 2. 이미지 분류 <br>
-<br> https://www.tensorflow.org/tutorials/images/classification<br>
-3. 이미지 생성 https://keras.io/examples/generative/dcgan_overriding_train_step/
+웹사이트명: 텐서플로우 공식문서 <br>
+링크: https://www.tensorflow.org/tutorials/images/classification<br>
+3. 이미지 생성 <br>
+웹사이트명: 케라스 공식문서 <br>
+링크: https://keras.io/examples/generative/dcgan_overriding_train_step/
 
