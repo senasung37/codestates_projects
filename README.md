@@ -2,21 +2,21 @@
 #Project1<br>
 -주제: 통계분석을 통한 지역별 비디오게임 판매량 비교분석<br>
 -데이터: 코드스테이츠 제공 
-<br><br>
+<br>
 
 #Project2<br>
 -주제: 머신러닝 기술로 화장품 회사 웹싸이트 유입고객 및 판매량 분석, 추천상품 예측, PDP를 통한 요인분석<br>
 -데이터: 캐글 Sephora Website (https://www.kaggle.com/raghadalharbi/all-products-available-on-sephora-website)
-<br><br>
+<br>
 
 #Project3<br>
 -주제: 머신러닝 기술로 화장품 회사 웹싸이트 유입고객 및 판매량 분석, 추천상품 예측, PDP를 통한 요인분석<br>
 -데이터: 공공데이터포털 서울특별시_동별 아파트 매매거래 현황 (https://www.data.go.kr/data/15081037/fileData.do)
 <br>
--코드참고:<br>
+-코드 참고:<br>
 채널명: Tech With Tim <br>
 링크: https://youtu.be/dam0GPOAvVI
-<br><br>
+<br>
 
 #Project4 <br>
 -주제: 이미지 관련 딥러닝 기술인 CNN, DCGAN을 통해 인테리어 이미지 컨셉별 분류, 특정 컨셉의 가상의 인테리어 이미지 생성 과제 수행<br>
