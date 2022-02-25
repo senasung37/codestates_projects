@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %} 
+<br /><br />
+<h2>
+
+    해당 아파트의 예측 가격은 {{"%.2f"|format(predict/10000)}} 억원입니다.
+
+</h2>
+<br />
+<br />
+<br /><h4>"구해줘 아파트 in Seoul"을 이용해주셔사 감사합니다 :-)</h4>
+    <br />
+
+{% endblock %}
