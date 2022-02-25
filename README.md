@@ -34,7 +34,7 @@
 링크: https://keras.io/examples/generative/dcgan_overriding_train_step/
 <br><br>
 
-#
+#CP1<br>
 -주제: 딥러닝 기술인 CycleGAN을 통해 인테리어 이미지 스타일 변형<br>
 -데이터: 웹스크레이핑을 통해 검색싸이트(www.bing.com) 이미지 수집<br>
 -코드 참고:<br>
