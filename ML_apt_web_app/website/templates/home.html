@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+
+<div class="house">
+
+    <style> 
+
+    .house {
+        position: absolute; 
+        margin: 0 -500 -500 0px;
+        left: 0px;
+        right: 0px;
+        height: 100vh;
+    }
+
+    .house::before {    
+        content: "";
+        background-image: url("https://cdn.pixabay.com/photo/2016/04/25/23/30/house-1353389_960_720.jpg") ;
+        position: absolute;
+        margin: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: -50px;
+        opacity: 0.6;
+    }
+
+    h1 {
+    position: relative;
+    color: white;  
+    font-size: 7rem;
+    line-height: 0.9;
+    text-align: center;
+  
+    }
+
+    h4 {
+    position: relative;
+    color: hsla(253, 86%, 8%, 0.797);  
+    font-size: 3;
+    font-weight: bold;
+    line-height: 0.9;
+    text-align: center;
+
+    }
+    </style>
+
+<br /><br />
+<h1>구해줘 아파트<br />in Seoul</h1>
+<br /><br /><br /><br /><br /><br />
+<h4>서울에는 내집이 없다... 그래도, 혹시?
+<br /><br /><br />
+서울시 아파트 매매가가 궁금하시다면 상단메뉴의 "APT price"를 클릭해주세요 :-)
+</h4>
+<br /></div></Body>
+{% endblock content %}

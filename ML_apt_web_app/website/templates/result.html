@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %} 
+
+<div class="house">
+
+    <style> 
+    
+    .house {
+        position: absolute; 
+        margin: 0 -500px -500px -0px;
+        left: 0px;
+        right: 0px;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .house::before {    
+          content: "";
+          background-image: url("https://cdn.pixabay.com/photo/2016/04/25/23/30/house-1353389_960_720.jpg") ;
+          position: absolute;
+          margin: 0px;
+          top: 0px;
+          right: 0px;
+          bottom: 0px;
+          left: 0px;
+          opacity: 0.6;
+    }
+
+h2 {
+  position: relative;
+  text-align: left;
+  top: 50px;
+  left: 100px;
+}
+   
+
+h4 {
+  position: relative;
+  text-align: left;
+  top: 50px;
+  left: 100px;
+}
+    
+    </style>
+<br /><br />
+<h2>
+
+    해당 아파트의 예측 가격은 {{"%.2f"|format(predict/10000)}} 억원입니다.
+
+</h2>
+<br />
+<br />
+<br /><h4>"구해줘 아파트 in Seoul"을 이용해주셔사 감사합니다 :-)</h4>
+    <br />
+</div>
+{% endblock %}
