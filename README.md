@@ -1,4 +1,10 @@
 # 부트캠프(코드스테이츠) 프로젝트 모음
+아래는 제가 부트캠프 과정(7개월)동안 진행한 개인 프로젝트 5개의 모음입니다. <br>
+
+이미지 위주로 보시려면 아래 링크의 포트폴리오를 봐주시면 감사하겠습니다. <br> 
+https://www.notion.so/SENA-3659604b8ae44077b3ee313a0d120495 <br>
+ <br>
+ 제목에서 [ ] 안의 문자가 폴더명입니다. <br> <br>
 
 ## [DL_CNN,DCGAN] CNN, DCGAN 인테리어 이미지 분류 및 생성 프로젝트
 - **프로젝트 주제**
@@ -15,14 +21,14 @@
 - **데이터**
   - 웹스크레이핑을 통해 검색싸이트(www.bing.com) 이미지 수집
 - **코드 참고**
-  - 이미지 수집 <br>
-    - 채널명: 동빈나<br> 
+  - 이미지 수집 
+    - 채널명: 동빈나
     - 링크: https://www.youtube.com/embed/Lu93Ah2h9XA 
-  - 이미지 분류 <br>
-    - 웹사이트명: 텐서플로우 공식문서 <br>
-    -  링크: https://www.tensorflow.org/tutorials/images/classification<br>
-  - 이미지 생성 <br>
-    - 웹사이트명: 케라스 공식문서 <br>
+  - 이미지 분류 
+    - 웹사이트명: 텐서플로우 공식문서
+    -  링크: https://www.tensorflow.org/tutorials/images/classification
+  - 이미지 생성 
+    - 웹사이트명: 케라스 공식문서
     - 링크: https://keras.io/examples/generative/dcgan_overriding_train_step/
 <br><br><br><br>
 
@@ -40,11 +46,11 @@
   - 웹스크레이핑을 통해 검색싸이트(www.bing.com) 이미지 수집
 - **코드 참고**
   - 이미지 수집 
-    - 채널명: 동빈나 <br> 
-    - 링크: https://www.youtube.com/embed/Lu93Ah2h9XA <br>
+    - 채널명: 동빈나 
+    - 링크: https://www.youtube.com/embed/Lu93Ah2h9XA 
   - 이미지 분류 
-    - 웹사이트명: 텐서플로우 공식문서 <br>
-   - 링크: https://www.tensorflow.org/tutorials/generative/cyclegan?hl=ko
+    - 웹사이트명: 텐서플로우 공식문서 
+    - 링크: https://www.tensorflow.org/tutorials/generative/cyclegan?hl=ko
 <br><br><br><br>
 
 ## [ML_apt_web_app] 아파트 매매가 예측 웹어플리케이션 개발 프로젝트
