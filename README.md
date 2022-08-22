@@ -1,8 +1,8 @@
 # 부트캠프(코드스테이츠) 프로젝트 모음
-아래는 제가 부트캠프 과정(7개월)동안 진행한 ML/DL 개인 프로젝트 5개의 모음입니다. <br> 
-각 프로젝트 제목에서 [ ] 안의 문자가 폴더명입니다. <br> <br>
-이미지 위주로 보시려면 아래 링크의 포트폴리오를 봐주시면 감사하겠습니다. <br> 
-https://www.notion.so/SENA-3659604b8ae44077b3ee313a0d120495 <br><br>
+- 아래는 제가 부트캠프 과정(7개월)동안 진행한 ML/DL 개인 프로젝트 5개의 모음입니다. <br> 
+- 각 프로젝트 제목에서 [ ] 안의 문자가 폴더명입니다. 
+- 이미지 위주로 보시려면 아래 링크, 또는 각 프로젝트 항목의 포트폴리오를 봐주세요 :) <br> 
+https://www.notion.so/SENA-3659604b8ae44077b3ee313a0d120495 <br><br><br>
 
 ## [DL_CNN,DCGAN] CNN, DCGAN 인테리어 이미지 분류 및 생성 프로젝트
 - **프로젝트 주제**
@@ -16,19 +16,24 @@ https://www.notion.so/SENA-3659604b8ae44077b3ee313a0d120495 <br><br>
 
 - **프로젝트 결과**
     - CNN 이미지 분류결과: Accuracy 0.9398
-- **데이터**
-  - 웹스크레이핑을 통해 검색싸이트(www.bing.com) 이미지 수집
+    
+- **데이터** 
+    - 웹스크레이핑을 통해 검색싸이트(www.bing.com) 이미지 수집
+  
+- **포트폴리오** <br>
+ https://www.notion.so/DL-Vision-CNN-DCGAN-f49a08d0ee464bff86086eef6860f1b6
+
 - **코드 참고**
   - 이미지 수집 
     - 채널명: 동빈나
-    - 링크: https://www.youtube.com/embed/Lu93Ah2h9XA 
+    - URL: https://www.youtube.com/embed/Lu93Ah2h9XA 
   - 이미지 분류 
     - 웹사이트명: 텐서플로우 공식문서
-    -  링크: https://www.tensorflow.org/tutorials/images/classification
+    - URL: https://www.tensorflow.org/tutorials/images/classification
   - 이미지 생성 
     - 웹사이트명: 케라스 공식문서
-    - 링크: https://keras.io/examples/generative/dcgan_overriding_train_step/
-<br><br><br><br>
+    - URL: https://keras.io/examples/generative/dcgan_overriding_train_step/
+<br><br><br>
 
 ## [DL_CycleGAN] CycleGAN 인테리어 이미지 변형 프로젝트
 - **프로젝트 주제**
@@ -42,14 +47,18 @@ https://www.notion.so/SENA-3659604b8ae44077b3ee313a0d120495 <br><br>
         
 - **데이터**
   - 웹스크레이핑을 통해 검색싸이트(www.bing.com) 이미지 수집
+
+- **포트폴리오** <br> 
+https://www.notion.so/DL-Vision-CycleGAN-1bc55be91b15431d9b9d45a56805e4ef
+  
 - **코드 참고**
   - 이미지 수집 
     - 채널명: 동빈나 
-    - 링크: https://www.youtube.com/embed/Lu93Ah2h9XA 
+    - URL: https://www.youtube.com/embed/Lu93Ah2h9XA 
   - 이미지 분류 
     - 웹사이트명: 텐서플로우 공식문서 
-    - 링크: https://www.tensorflow.org/tutorials/generative/cyclegan?hl=ko
-<br><br><br><br>
+    - URL: https://www.tensorflow.org/tutorials/generative/cyclegan?hl=ko
+<br><br><br>
 
 ## [ML_apt_web_app] 아파트 매매가 예측 웹어플리케이션 개발 프로젝트
 - **프로젝트 주제**
@@ -63,12 +72,15 @@ https://www.notion.so/SENA-3659604b8ae44077b3ee313a0d120495 <br><br>
     - SQL로 input 데이터 연동
     
 - **데이터**
-  - 공공데이터포털 서울특별시_동별 아파트 매매거래 현황 (https://www.data.go.kr/data/15081037/fileData.do)
+  - 공공데이터포털 서울특별시_동별 아파트 매매거래 현황(https://www.data.go.kr/data/15081037/fileData.do)
+
+- **포트폴리오** <br> 
+https://www.notion.so/ML-Flask-7b21ef55e887444faf194d7275e5e8dd
 
 - **코드참고**
   - 채널명: Tech With Tim 
-  - 링크: https://youtu.be/dam0GPOAvVI
-<br><br><br><br>
+  - URL: https://youtu.be/dam0GPOAvVI
+<br><br><br>
 
 ## [ML_sephora_website_sales] 화장품 웹싸이트 평점 분석 프로젝트
 - **프로젝트 주제**
@@ -78,18 +90,22 @@ https://www.notion.so/SENA-3659604b8ae44077b3ee313a0d120495 <br><br>
     - 세포라 웹싸이트 화장품 평점 분석
     - 제품 특징에 따른 높은 평점(추천제품) 예측
     - 평점에 영향을 끼치는 요인 분석 (PDP)
+    
 - **프로젝트 결과**
   - Accuracy: 0.511 → 0.646
     
 - **데이터** 
   - 캐글 Sephora Website (https://www.kaggle.com/raghadalharbi/all-products-available-on-sephora-website)
-<br><br><br><br>
 
+- **포트폴리오** <br> 
+https://www.notion.so/ML-Flask-7b21ef55e887444faf194d7275e5e8dd
 
+<br><br>
 
 ## ML_video_game_sales
 - 주제: 통계분석을 통한 지역별 비디오게임 판매량 비교분석
 - 데이터: 코드스테이츠 제공 
+- 간단한 프로젝트라서 포트폴리오에 포함시키지 않았습니다.
 <br><br>
 
 
